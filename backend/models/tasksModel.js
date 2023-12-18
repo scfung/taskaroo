@@ -13,7 +13,9 @@ const taskSchema = new mongoose.Schema(
             enum: ['Completed, Ongoing, On-Hold'],
             default: 'Ongoing'
         },
-        timestamps: true
+    },
+    {
+        timestamps: true,
     }
 );
 

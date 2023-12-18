@@ -1,4 +1,4 @@
-const Task = require('../models/taskModel'); // Adjust the path as necessary
+const Task = require('../models/tasksModel'); // Adjust the path as necessary
 
 // Add a new task
 exports.addTask = async (req, res) => {

@@ -33,6 +33,6 @@ router.put('/edit/:taskId', authMiddleware, taskController.editTask);
 router.delete('/delete/:taskId', authMiddleware, taskController.deleteTask);
 
 // Add a route to retrieve tasks for the authenticated user
-router.get('/user-tasks', authMiddleware, taskController.getTasks);
+//router.get('/user-tasks', authMiddleware, taskController.getTasks);
 
 module.exports = router;
