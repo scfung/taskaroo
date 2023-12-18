@@ -1,0 +1,57 @@
+.app-name {
+  font-size: 2em;
+  color: white;
+}
+ 
+ 
+.top-bar {
+  background: radial-gradient(circle, #4afbb1d4, #3fff8f, #4afb5cd4);
+  padding: 1px;
+}
+ 
+ 
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+ 
+ 
+.link-button {
+  background-color: rgb(36, 247, 187); 
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+ 
+.welcome-message {
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: rgb(36, 247, 187);
+}
+
+/* Style for the Get Started button */
+.get-started-button {
+  background-color: rgb(36, 247, 187); /* Green background */
+  color: white; /* White text */
+  padding: 15px 30px; /* Larger padding */
+  font-size: 1.5em; /* Larger font size */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+  border-radius: 8px; /* Rounded corners */
+  margin-top: 20px; /* Margin at the top */
+  display: block; /* Make the button a block element */
+  width: max-content; /* Adjust width to content */
+  margin-left: auto; /* Auto margin for horizontal centering */
+  margin-right: auto; /* Auto margin for horizontal centering */
+}
+ 
