@@ -20,6 +20,10 @@ app.use('/api/auth', authRoutes); // Prefixing auth routes with '/api/auth'
 const taskRoutes = require('./routes/taskRoutes.js'); // Adjust the path as necessary
 app.use('/api/tasks', taskRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Hello, this is the root URL!');
+});
+
 // Start the Server
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
