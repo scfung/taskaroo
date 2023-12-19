@@ -13,7 +13,7 @@ function ContentWithLocation() {
 
     const signIn = async (email, password) => {
         try {
-            const response = await fetch('http://localhost:10000/api/auth/signin', {
+            const response = await fetch('https://taskaroo-backend.onrender.com/api/auth/signin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password })
@@ -33,7 +33,7 @@ function ContentWithLocation() {
 
     const signUp = async (email, username, password) => {
         try {
-            const response = await fetch('http://localhost:10000/api/auth/signup', {
+            const response = await fetch('https://taskaroo-backend.onrender.com/api/auth/signup', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, username, password })
